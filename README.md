@@ -1,51 +1,32 @@
 # Análisis descriptivo de encuesta anual para desarrolladores de Stack Overflow
 _Se toma la base de la encuesta anual de desarrolladores de Stack Overflow, realizada en mas de 180 paises, la cual toma varios temas de interes general.
-Con esta base_
-
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
+Con esta base se plantean responder 3 preguntas, ¿que paises han tenido mayor aumento en la ultima encuesta?, ¿cual es el nivel de educación que tiene el peor y cual el mejor porcentaje de empleo ? y poder dislumbrar la tendencia en el lenguaje mas deseado de aprender._
 
 
-### Pre-requisitos 📋
+### Bibliotecas 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Las bibliotecas o paquetes necesarios para poder ejecutar el notebook son:_
 
 ```
-Da un ejemplo
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
 ```
 
-### Instalación 🔧
+### Archivos en el repositorio 🔩
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_El repositorio de este proyecto contiene las bases de:_
+** survey_results_public_2020 **
+** survey_results_public_2019 **
+** survey_results_public_2018 **
+** survey_results_public_2017 **
+** 2016 Stack Overflow Survey Responses **
+** 2015 Stack Overflow Developer Survey Responses **
+** 2014 Stack Overflow Survey Responses **
+** 2013 Stack Overflow Survey Responses **
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
+_Cada encuesta puede tener algunas preguntas distintas, lo cual, al momento de analizar debe ser mirado detalladamente, contiene variables tipo numerico y categorico_
 
 ### Y las pruebas de estilo de codificación ⌨️
 
