@@ -17,14 +17,14 @@ import numpy as np
 ### Archivos en el repositorio 🔩
 
 _El repositorio de este proyecto contiene las bases de:_
-** survey_results_public_2020 **
-** survey_results_public_2019 **
-** survey_results_public_2018 **
-** survey_results_public_2017 **
-** 2016 Stack Overflow Survey Responses **
-** 2015 Stack Overflow Developer Survey Responses **
-** 2014 Stack Overflow Survey Responses **
-** 2013 Stack Overflow Survey Responses **
+**survey_results_public_2020
+ survey_results_public_2019
+ survey_results_public_2018
+ survey_results_public_2017
+ 2016 Stack Overflow Survey Responses 
+ 2015 Stack Overflow Developer Survey Responses 
+ 2014 Stack Overflow Survey Responses 
+ 2013 Stack Overflow Survey Responses **
 
 _Cada encuesta puede tener algunas preguntas distintas, lo cual, al momento de analizar debe ser mirado detalladamente, contiene variables tipo numerico y categorico_
 
